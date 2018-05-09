@@ -29,7 +29,7 @@ int timeElapsedSinceSwitch[NBR_VIBRATORS];    //< Time since we switched the vib
 bool currentStates[NBR_VIBRATORS];            //< Is the Vibrator on or off
 
 
-int vibratorPins[NBR_VIBRATORS]   = { 4,  5}; //< The pins used for he vibrators    
+int vibratorPins[NBR_VIBRATORS]   = { 4,  5}; //< The pins used for the vibrators    
 int sonarTrigPins[NBR_SONARS]     = {11,  7}; //< The pins used to trigger the sonars
 int sonarResponsePins[NBR_SONARS] = {12,  8}; //< THe pins used to read from the sonars
 
